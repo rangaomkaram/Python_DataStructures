@@ -26,7 +26,7 @@ def Anagram(s1,s2):
     for key in freq1:
         if key not in freq2 or freq1[key] != freq2[key]:
             return print('They are not anagram')
-    return print('they are anagram')
+    return print('the both strings are anagram')
 
 
 Anagram(s1,s2)
